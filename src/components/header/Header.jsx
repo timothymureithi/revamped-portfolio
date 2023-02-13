@@ -1,11 +1,19 @@
 import React from "react";
 
 const Header = () => {
-return(
-    <header id="home">
-        
-    </header>
-)
-}
-
+    return (
+      <header id="home">
+        <div className="container header__container">
+          <h5>Hello I'm</h5>
+          <h1>Timothy Mureithi</h1>
+          <h5 className="text-light">Full-stack Developer</h5>
+          <CTA />
+          <a href="#contact" className="scroll__down">
+            Scroll Down
+          </a>
+          <HeaderSocials />
+        </div>
+      </header>
+    );
+  };
 export default Header;
