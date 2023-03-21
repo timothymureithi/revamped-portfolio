@@ -6,7 +6,7 @@ const SocialMedia = () => (
     <div className="app__social app__navbar-social">
         <div>
             <a
-                href="https://github.com/timothymureithi"
+                href="https://github.com/SanketMane17"
                 style={{ height: "20px" }}
                 target="_blank">
                 <GitHubIcon />
