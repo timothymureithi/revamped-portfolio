@@ -1,10 +1,16 @@
 import './App.scss';
-import { Navbar } from './components';
+import { About, Header, Footer, Skills, Work } from "./container";
+import { Navbar } from "./components";
 
 function App() {
   return (
     <div className='app'>
       <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Skills />
       
     </div>
   )
